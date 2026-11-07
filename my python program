@@ -1,0 +1,23 @@
+students = [
+    {"name": "Amit", "marks": 85}
+    {"name": "Riya", "marks": 90}
+    {"name": "Rahul", "marks": 75}
+    {"name": "Neha":, "marks": 95}
+    {"name": "Ankit":, "marks": 65}
+]
+total = sum(s["marks"] for s in students)
+average = total / len(students)
+highest = max(s["marks"] for s in students)
+lowest = min(s["marks"] for s in students)
+passed = sum(1 for s in students if s["marks"] >=40)
+print("total marks:", total)
+print("average marks:", average)
+print("highest marks:", highest)
+print("lowest marks:", lowest)
+print("students passed:", passed)
+
+print("students\nstudents details:")
+
+for student in students
+ percentage = student["marks"]
+ print(student["name"], ":", percentage, "%"
